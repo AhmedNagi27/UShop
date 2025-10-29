@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen.components.feature_product
+package com.lol.ushop.ui.screens.home_screen.components.feature_product
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

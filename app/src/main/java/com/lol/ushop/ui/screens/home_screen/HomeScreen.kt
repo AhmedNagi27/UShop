@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen
+package com.lol.ushop.ui.screens.home_screen
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -14,12 +14,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.lol.shopforme.ui.screens.home_screen.components.BottomNavBar
-import com.lol.shopforme.ui.screens.home_screen.components.HomeTopAppBar
-import com.lol.shopforme.ui.screens.home_screen.components.SearchBar
-import com.lol.shopforme.ui.screens.home_screen.components.SectionTitle
-import com.lol.shopforme.ui.screens.home_screen.components.category.CategoriesRow
-import com.lol.shopforme.ui.screens.home_screen.components.feature_product.FeaturedProductRow
+import com.lol.ushop.ui.screens.home_screen.components.BottomNavBar
+import com.lol.ushop.ui.screens.home_screen.components.HomeTopAppBar
+import com.lol.ushop.ui.screens.home_screen.components.SearchBar
+import com.lol.ushop.ui.screens.home_screen.components.SectionTitle
+import com.lol.ushop.ui.screens.home_screen.components.category.CategoriesRow
+import com.lol.ushop.ui.screens.home_screen.components.feature_product.FeaturedProductRow
 
 @Composable
 fun HomeScreen(

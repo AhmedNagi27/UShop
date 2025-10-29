@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen.components
+package com.lol.ushop.ui.screens.home_screen.components
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons

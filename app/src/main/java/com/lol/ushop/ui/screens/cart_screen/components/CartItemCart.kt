@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.cart_screen.components
+package com.lol.ushop.ui.screens.cart_screen.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

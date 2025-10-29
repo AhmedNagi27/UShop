@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.cart_screen
+package com.lol.ushop.ui.screens.cart_screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -29,8 +29,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.lol.shopforme.data.model.Products
-import com.lol.shopforme.ui.screens.cart_screen.components.CartItemCard
-import com.lol.shopforme.ui.screens.cart_screen.components.CheckOutSection
+import com.lol.ushop.ui.screens.cart_screen.components.CartItemCard
+import com.lol.ushop.ui.screens.cart_screen.components.CheckOutSection
 
 @Composable
 fun CartScreen(

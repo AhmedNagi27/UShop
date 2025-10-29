@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.profile_screen
+package com.lol.ushop.ui.screens.profile_screen
 
 data class UserProfile(
     val userId: String,

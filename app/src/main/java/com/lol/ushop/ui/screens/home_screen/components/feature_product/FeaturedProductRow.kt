@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen.components.feature_product
+package com.lol.ushop.ui.screens.home_screen.components.feature_product
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.padding
@@ -64,14 +64,14 @@ fun FeaturedProductRow(modifier: Modifier = Modifier) {
       )
   LazyRow(modifier = modifier.padding(8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
     items(productList) { item ->
-      FeaturedProductCard(
-          onClick = {},
-          discount = "10",
-          title = item.name,
-          imageUrl = item.imageUrl,
-          price = item.price.toString(),
-          rating = item.rating.toString(),
-      )
+        FeaturedProductCard(
+            onClick = {},
+            discount = "10",
+            title = item.name,
+            imageUrl = item.imageUrl,
+            price = item.price.toString(),
+            rating = item.rating.toString(),
+        )
     }
   }
 }

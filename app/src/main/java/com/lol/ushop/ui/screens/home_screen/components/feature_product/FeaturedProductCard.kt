@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen.components.feature_product
+package com.lol.ushop.ui.screens.home_screen.components.feature_product
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -47,10 +47,10 @@ fun FeaturedProductCard(
   ) {
     Box {
       if (discount.toInt() > 0) {
-        DiscountBadge(
-            discount = discount,
-            modifier = Modifier.align(Alignment.TopEnd).padding(8.dp).zIndex(2f),
-        )
+          DiscountBadge(
+              discount = discount,
+              modifier = Modifier.align(Alignment.TopEnd).padding(8.dp).zIndex(2f),
+          )
       }
       Column(
           modifier = Modifier.align(Alignment.Center).padding(16.dp).zIndex(1f),

@@ -1,10 +1,9 @@
-package com.lol.shopforme.ui.screens.home_screen.components.category
+package com.lol.ushop.ui.screens.home_screen.components.category
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.runtime.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -39,11 +38,11 @@ fun CategoriesRow(modifier: Modifier = Modifier) {
       )
   LazyRow(modifier = modifier.padding(8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
     items(categoriesDate) { category ->
-      CategoryCard(
-          itemName = category.itemName,
-          icon = category.iconUrl,
-          isSelected = category.isSelected,
-      ) {}
+        CategoryCard(
+            itemName = category.itemName,
+            icon = category.iconUrl,
+            isSelected = category.isSelected,
+        ) {}
     }
   }
 }

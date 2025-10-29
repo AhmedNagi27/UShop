@@ -1,9 +1,7 @@
-package com.lol.shopforme.ui.screens.home_screen.components
+package com.lol.ushop.ui.screens.home_screen.components
 
-import android.provider.CalendarContract
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon

@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen.components.category
+package com.lol.ushop.ui.screens.home_screen.components.category
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable

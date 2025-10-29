@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.category_screen
+package com.lol.ushop.ui.screens.category_screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -64,23 +64,20 @@ fun CategoriesScreen(
           ),
       )
   Column(modifier = Modifier.systemBarsPadding()) {
-      Row(
-          verticalAlignment = Alignment.CenterVertically
-      ){
-          IconButton(onClick = { navController.popBackStack() }){
-              Icon(
-                  imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                  contentDescription = "Back",
-              )
-
-          }
-          Spacer(modifier = Modifier.width(8.dp))
-          Text(
-              text = "Categories",
-              style = MaterialTheme.typography.titleLarge,
-              modifier= Modifier.padding(16.dp),
-          )
+    Row(verticalAlignment = Alignment.CenterVertically) {
+      IconButton(onClick = { navController.popBackStack() }) {
+        Icon(
+            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+            contentDescription = "Back",
+        )
       }
+      Spacer(modifier = Modifier.width(8.dp))
+      Text(
+          text = "Categories",
+          style = MaterialTheme.typography.titleLarge,
+          modifier = Modifier.padding(16.dp),
+      )
+    }
 
     HorizontalDivider()
     LazyVerticalGrid(

@@ -1,4 +1,4 @@
-package com.lol.shopforme.ui.screens.home_screen.components
+package com.lol.ushop.ui.screens.home_screen.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
