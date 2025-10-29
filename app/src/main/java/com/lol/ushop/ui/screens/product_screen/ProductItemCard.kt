@@ -75,7 +75,6 @@ fun ProductItemCard(
         Icon(
             imageVector = Icons.Outlined.ShoppingCart,
             contentDescription = "Remove Item",
-            tint = MaterialTheme.colorScheme.inverseSurface,
         )
       }
     }
@@ -85,10 +84,14 @@ fun ProductItemCard(
 @Preview
 @Composable
 fun ProductItemCardPreview() {
-    val product = Products(id = "1", name = "Sample Product", price = 99.99, rating = 4.5, imageUrl = "", categoryId = "cat1")
-    ProductItemCard(
-        product = product,
-        onCartClick = {},
-        onClick = {}
-    )
+  val product =
+      Products(
+          id = "1",
+          name = "Sample Product",
+          price = 99.99,
+          rating = 4.5,
+          imageUrl = "",
+          categoryId = "cat1",
+      )
+  ProductItemCard(product = product, onCartClick = {}, onClick = {})
 }
