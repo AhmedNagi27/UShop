@@ -63,7 +63,7 @@ fun HomeScreen(
       // Featured Products Section
       Spacer(modifier = Modifier.height(16.dp))
       SectionTitle(title = "Featured Products", modifier = Modifier.fillMaxWidth()) {}
-      FeaturedProductRow()
+      FeaturedProductRow(navController = navController)
     }
   }
 }
