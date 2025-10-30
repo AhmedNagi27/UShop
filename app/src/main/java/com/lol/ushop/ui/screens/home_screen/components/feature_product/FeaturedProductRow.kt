@@ -70,9 +70,7 @@ fun FeaturedProductRow(modifier: Modifier = Modifier,navController: NavControlle
   LazyRow(modifier = modifier.padding(8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
     items(productList) { item ->
       FeaturedProductCard(
-          onClick = {
-              navController.navigate("ProductDetails/${item.id}")
-          },
+          onClick = {},
           discount = "10",
           title = item.name,
           imageUrl = item.imageUrl,
