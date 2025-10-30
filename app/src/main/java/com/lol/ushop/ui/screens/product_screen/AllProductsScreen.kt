@@ -28,7 +28,7 @@ import com.lol.shopforme.data.model.Products
 fun AllProductsScreen(
     modifier: Modifier = Modifier,
     navController: NavController,
-    omItemClick: () -> Unit,
+    onItemClick: () -> Unit,
 ) {
   val productList =
       listOf(
@@ -105,7 +105,7 @@ fun AllProductsScreen(
         modifier = modifier.padding(horizontal = 8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
-      items(productList) { item -> ProductItemCard(product = item, onCartClick = {}, onClick = {}) }
+      items(productList) { item -> ProductItemCard(product = item, onCartClick = {}, onClick = onItemClick) }
     }
   }
 }

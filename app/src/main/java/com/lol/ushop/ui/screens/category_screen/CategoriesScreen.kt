@@ -37,7 +37,7 @@ import com.lol.shopforme.data.model.Categories
 fun CategoriesScreen(
     modifier: Modifier = Modifier,
     navController: NavController,
-    omItemClick: () -> Unit,
+    onItemClick: () -> Unit,
 ) {
   val categoriesDate =
       listOf(
