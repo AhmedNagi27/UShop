@@ -28,6 +28,7 @@ fun HomeScreen(
     onProfileClick: () -> Unit,
     onCartClick: () -> Unit,
     onCategoryClick: () -> Unit,
+    onFeaturedProductsClick: () -> Unit,
 ) {
   Scaffold(
       modifier = modifier,
@@ -62,7 +63,11 @@ fun HomeScreen(
       CategoriesRow()
       // Featured Products Section
       Spacer(modifier = Modifier.height(16.dp))
-      SectionTitle(title = "Featured Products", modifier = Modifier.fillMaxWidth()) {}
+      SectionTitle(
+          title = "Featured Products",
+          modifier = Modifier.fillMaxWidth(),
+          onActionClick = onFeaturedProductsClick,
+      )
       FeaturedProductRow(navController = navController)
     }
   }

@@ -21,6 +21,7 @@ fun NavSystem(modifier: Modifier = Modifier) {
           onProfileClick = { navController.navigate("Profile") },
           onCartClick = { navController.navigate("Cart") },
           onCategoryClick = { navController.navigate("Categories") },
+          onFeaturedProductsClick = { navController.navigate("Featured Products") },
       )
     }
     composable("Cart") {
