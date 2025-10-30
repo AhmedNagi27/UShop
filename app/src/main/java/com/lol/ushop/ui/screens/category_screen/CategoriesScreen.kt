@@ -88,7 +88,7 @@ fun CategoriesScreen(
     ) {
       items(categoriesDate) { item ->
         Card(
-            onClick = omItemClick,
+            onClick = onItemClick,
             modifier = Modifier.padding(12.dp),
             shape = RoundedCornerShape(15.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
